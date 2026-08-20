@@ -225,7 +225,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const resumeUrl = 'Resume.pdf';
             const link = document.createElement('a');
             link.href = resumeUrl;
-            link.download = 'Your_Name_Resume.pdf'; // Custom download filename
+            link.download = 'SUROJIT BARIK RESUME.pdf'; // Custom download filename
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);

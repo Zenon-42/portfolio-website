@@ -90,7 +90,7 @@ export default function CinematicMode({ onExit }: Props) {
       <header className="fixed top-0 inset-x-0 z-50 border-b border-white/[0.06] bg-black/70 backdrop-blur-md">
         <nav className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4 sm:px-6" aria-label="Main">
           <a href="#top" className="font-anton text-lg tracking-wider text-white">
-            AM<span className="text-[#00ff41]">_</span>
+            SB<span className="text-[#00ff41]">_</span>
           </a>
           <ul className="hidden md:flex items-center gap-7 text-[11px] tracking-[0.25em] text-[#7aa885]">
             {["PROJECTS", "SKILLS", "TIMELINE", "CONTACT"].map((l) => (

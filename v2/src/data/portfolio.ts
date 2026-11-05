@@ -60,7 +60,7 @@ export const projects: Project[] = [
     name: "CommandDeck",
     desc: "AI-assisted terminal workflow tool that turns plain English into safe, reviewable shell pipelines.",
     stack: ["TypeScript", "Rust", "OpenAI API"],
-    link: "https://github.com/arjunmehta-dev",
+    link: "https://github.com/Zenon-42",
   },
   {
     index: "02",
@@ -68,7 +68,7 @@ export const projects: Project[] = [
     name: "KnowFlow",
     desc: "Spaced-repetition learning platform that auto-generates quizzes from your own notes.",
     stack: ["Next.js", "PostgreSQL", "Prisma"],
-    link: "https://github.com/arjunmehta-dev",
+    link: "https://github.com/Zenon-42",
   },
   {
     index: "03",
@@ -76,7 +76,7 @@ export const projects: Project[] = [
     name: "ChurnGuard",
     desc: "ML microservice that predicts customer churn and ships explainable reports to the CRM.",
     stack: ["Python", "FastAPI", "scikit-learn"],
-    link: "https://github.com/arjunmehta-dev",
+    link: "https://github.com/Zenon-42",
   },
   {
     index: "04",
@@ -84,7 +84,7 @@ export const projects: Project[] = [
     name: "InvoiceForge",
     desc: "Dead-simple invoicing for freelancers. Fill a form, get a clean PDF, get paid.",
     stack: ["React", "Node.js", "SQLite"],
-    link: "https://github.com/arjunmehta-dev",
+    link: "https://github.com/Zenon-42",
   },
   {
     index: "05",
@@ -92,7 +92,7 @@ export const projects: Project[] = [
     name: "HinglishNLP",
     desc: "Playground that decodes Hinglish slang — sentiment, tone and intent in real time.",
     stack: ["Python", "Hugging Face", "Gradio"],
-    link: "https://github.com/arjunmehta-dev",
+    link: "https://github.com/Zenon-42",
   },
 ];
 

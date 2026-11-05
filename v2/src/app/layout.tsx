@@ -15,15 +15,15 @@ const anton = Anton({
 });
 
 export const metadata: Metadata = {
-  title: "ARJUN MEHTA — Full-Stack Developer & AI Enthusiast",
+  title: "SUROJIT BARIK — Full-Stack Developer & AI Enthusiast",
   description:
-    "Terminal-style portfolio of Arjun Mehta. Page through it like a shell session — or hit the surprise button and watch it reboot into full cinematic mode.",
+    "Terminal-style portfolio of Surojit Barik. Page through it like a shell session — or hit the surprise button and watch it reboot into full cinematic mode.",
   keywords: ["portfolio", "developer", "terminal", "full-stack", "AI"],
   icons: {
     icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='black'/><text y='72' x='14' font-size='64' fill='%2300ff41' font-family='monospace'>&gt;_</text></svg>",
   },
   openGraph: {
-    title: "ARJUN MEHTA — Portfolio",
+    title: "SUROJIT BARIK — Portfolio",
     description: "A terminal you can page through. With an easter egg.",
     type: "website",
   },

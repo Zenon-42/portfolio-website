@@ -87,7 +87,7 @@ function buildPages(): TermPage[] {
   ];
 
   const skillBlocks: TermBlock[] = [
-    { kind: "text", text: "/home/arjun/skills", variant: "dim" },
+    { kind: "text", text: "/home/surojit/skills", variant: "dim" },
     { kind: "text", text: "", variant: "out" },
     ...skills.flatMap((g, gi): TermBlock[] => [
       { kind: "text", text: `├── ${g.dir}`, variant: "head" },

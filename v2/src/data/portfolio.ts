@@ -7,15 +7,15 @@
  */
 
 export const persona = {
-  name: "Arjun Mehta",
-  handle: "arjun",
+  name: "Surojit Barik",
+  handle: "zenon",
   host: "devbox",
   role: "Full-Stack Developer × AI Enthusiast",
   tagline: "I build products where AI meets thoughtful engineering.",
-  location: "New Delhi, IN",
-  email: "arjun.mehta@example.dev",
-  github: "https://github.com/arjunmehta-dev",
-  linkedin: "https://linkedin.com/in/arjunmehta-dev",
+  location: "Visakhapatnam, IN",
+  email: "surojitbarik097@gmail.com",
+  github: "https://github.com/Zenon-42",
+  linkedin: "https://linkedin.com/in/surojitbarik",
   resumeNote: "# placeholder identity — swap every field in src/data/portfolio.ts",
 };
 

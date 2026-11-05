@@ -47,7 +47,7 @@ const variantCls: Record<Variant, string> = {
    ──────────────────────────────────────────────── */
 
 const BANNER =
-  "▄▀█ █▀█ ░░█ █ █▄░█\n█▄█ █▀▄ █▄█ █ █░▀█";
+  "█▀ █░█ █▀█ █▀█ ░░█ █ ▀█▀\n▄█ █▄█ █▀▄ █▄█ █▄█ █ ░█░";
 
 function buildPages(): TermPage[] {
   const p = persona;

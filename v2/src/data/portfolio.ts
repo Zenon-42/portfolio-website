@@ -21,27 +21,31 @@ export const persona = {
 
 export const about = {
   paragraphs: [
-    "CS undergrad who spends an unreasonable amount of time in the terminal. I like shipping things end-to-end: scraping the idea off a napkin, wiring the API, styling the UI, and deploying before the coffee gets cold.",
-    "Currently deep in AI agents and NLP tooling — teaching machines to be useful, not just clever. When I'm not coding, I'm hunting hackathons, contributing to open source, or ricing my Linux setup for the 47th time.",
+    "Computer Science graduate with a strong interest in software engineering and building practical applications. I enjoy solving problems through code, understanding how systems work behind the scenes, and turning ideas into working software.",
+
+    "My interests lie in backend development, full-stack engineering, and AI/ML. I work with Java, Python, JavaScript, and C++, and enjoy exploring APIs, databases, web technologies, and intelligent applications through hands-on projects."
   ],
   facts: [
-    ["os", "Arch Linux (btw)"],
-    ["shell", "zsh + tmux"],
-    ["editor", "neovim"],
-    ["uptime", "4+ years of shipping"],
-    ["location", "New Delhi, IN"],
-    ["status", "open to internships"],
+    ["education", "B.Tech — Computer Science"],
+    ["languages", "Java, Python, JavaScript, C++"],
+    ["focus", "Backend & Full-Stack Development"],
+    ["interests", "AI/ML, Software Engineering"],
+    ["os", "Windows", "Linux"],
+    ["status", "Exploring opportunities"],
   ] as [string, string][],
 };
 
 export type SkillGroup = { dir: string; items: string[] };
 
 export const skills: SkillGroup[] = [
-  { dir: "languages/", items: ["TypeScript", "Python", "Java", "C++", "Go", "SQL"] },
-  { dir: "frontend/", items: ["React", "Next.js", "Tailwind CSS", "Framer Motion", "shadcn/ui"] },
-  { dir: "backend/", items: ["Node.js", "Express", "FastAPI", "PostgreSQL", "MongoDB", "Redis"] },
-  { dir: "ai-ml/", items: ["PyTorch", "scikit-learn", "LangChain", "Hugging Face", "OpenAI API"] },
+  { dir: "languages/", items: ["Java", "Python", "JavaScript", "TypeScript", "C++", "SQL"] },
+  { dir: "frontend/", items: ["React", "Next.js", "Tailwind CSS", "HTML", "CSS"] },
+  { dir: "backend/", items: ["Node.js", "Express", "REST APIs", "FastAPI", "SQLite", "PostgreSQL", "MongoDB", "Redis"] },
+  { dir: "ai-ml/", items: ["PyTorch", "scikit-learn", "Hugging Face", "OpenAI API"] },
   { dir: "ops/", items: ["Linux", "Docker", "Git", "CI/CD", "Nginx", "Vercel"] },
+  { dir: "tools/",items: ["Git", "GitHub", "Postman", "VS Code", "Linux"]},
+  { dir: "areas-of-interest/",items: ["Backend Development","Full-Stack Development","Artificial Intelligence","Machine Learning","Natural Language Processing"]},
+  { dir: "ai-models/",items: ["Claude","ChatGPT","DeepSeek","Gemini","z.ai"]},
 ];
 
 export type Project = {
@@ -57,42 +61,42 @@ export const projects: Project[] = [
   {
     index: "01",
     rank: "S",
-    name: "CommandDeck",
-    desc: "AI-assisted terminal workflow tool that turns plain English into safe, reviewable shell pipelines.",
-    stack: ["TypeScript", "Rust", "OpenAI API"],
-    link: "https://github.com/Zenon-42",
+    name: "Waste Classifier",
+    desc: "An image classification system that categorizes waste into six classes using a CNN and MobileNetV2 transfer learning, with Grad-CAM for model interpretability.",
+    stack: ["Python", "TensorFlow", "MobileNetV2", "Streamlit", "Grad-CAM"],
+    link: "https://github.com/Zenon-42/waste-classifier",
   },
   {
     index: "02",
-    rank: "A",
-    name: "KnowFlow",
-    desc: "Spaced-repetition learning platform that auto-generates quizzes from your own notes.",
-    stack: ["Next.js", "PostgreSQL", "Prisma"],
-    link: "https://github.com/Zenon-42",
+    rank: "S",
+    name: "Invoice Field Extraction",
+    desc: "A hybrid document AI pipeline that automates invoice field extraction using Claude Vision, PaddleOCR, OpenCV, and rule-based validation.",
+    stack: ["Python", "Claude Vision", "PaddleOCR", "OpenCV"],
+    link: "https://github.com/Zenon-42/invoice-field-extraction",
   },
   {
     index: "03",
     rank: "A",
-    name: "ChurnGuard",
-    desc: "ML microservice that predicts customer churn and ships explainable reports to the CRM.",
-    stack: ["Python", "FastAPI", "scikit-learn"],
-    link: "https://github.com/Zenon-42",
+    name: "Library Management API",
+    desc: "A REST API for managing books, members, and loans, built with Express 5, Zod validation, ES modules, and JSON-based storage.",
+    stack: ["JavaScript", "Node.js", "Express 5", "Zod"],
+    link: "https://github.com/Zenon-42/library-management-api",
   },
   {
     index: "04",
     rank: "B",
-    name: "InvoiceForge",
-    desc: "Dead-simple invoicing for freelancers. Fill a form, get a clean PDF, get paid.",
-    stack: ["React", "Node.js", "SQLite"],
-    link: "https://github.com/Zenon-42",
+    name: "Expense Tracker",
+    desc: "A lightweight command-line expense tracker that manages and stores expense records locally using JSON.",
+    stack: ["JavaScript", "Node.js", "JSON"],
+    link: "https://github.com/Zenon-42/expense-tracker",
   },
   {
     index: "05",
     rank: "B",
-    name: "HinglishNLP",
-    desc: "Playground that decodes Hinglish slang — sentiment, tone and intent in real time.",
-    stack: ["Python", "Hugging Face", "Gradio"],
-    link: "https://github.com/Zenon-42",
+    name: "AtmosFX",
+    desc: "A software development project focused on building a practical application with an emphasis on implementation and functionality.",
+    stack: ["Python"],
+    link: "https://github.com/Zenon-42/AtmosFX",
   },
 ];
 
@@ -102,44 +106,54 @@ export const timeline: TimelineEntry[] = [
   {
     year: "2022",
     line: "B.Tech CSE — started",
-    detail: "Enrolled at IIIT Delhi. Wrote 'hello world' in 6 languages in week one, as one does.",
+    detail: "Wrote 'hello world' in 6 languages in week one, as one does.",
   },
   {
     year: "2023",
-    line: "SDE Intern — fintech startup",
-    detail: "Built internal dashboards used by the ops team daily. Learned that DB indexes matter.",
+    line: "Exploring Computer Science",
+    detail: "Began exploring programming fundamentals, algorithms, and computer science concepts."
   },
   {
     year: "2024",
-    line: "Winner — Smart India Hackathon",
-    detail: "36 hours, 4 teammates, 1 working AI proctoring prototype and zero sleep.",
+    line: "Building Backend and Frontend Applications",
+    detail: "Explored UI/UX, React.js,HTTP servers, REST APIs, database integration, and backend application development."
   },
   {
     year: "2025",
     line: "Open-source contributor",
-    detail: "Shipped PRs to NLP and dev-tool repos. Discovered the joy of reading other people's code.",
+    detail: "Discovered the joy of reading other people's code.",
   },
   {
     year: "2026",
-    line: "Product Engineering Intern — SaaS unicorn",
-    detail: "Working on AI features used by thousands. Currently writing this portfolio instead of docs.",
+    line: "Exploring AI/ML & Full-Stack",
+    detail: "Expanding my knowledge of full-stack development, artificial intelligence, machine learning, and software engineering."
+  },
+  {
+    year: "CURRENT",
+    line: "Building Real-World Projects",
+    detail: "Focusing on backend engineering, API development, software architecture, testing, and exploring AI/ML."
   },
 ];
 
 export const stats = [
+  { label: "PROGRAMMING LANGUAGES", value: 4, suffix: "" },
   { label: "YEARS CODING", value: 4, suffix: "+" },
-  { label: "PROJECTS SHIPPED", value: 25, suffix: "+" },
-  { label: "GIT COMMITS", value: 1200, suffix: "+" },
-  { label: "HACKATHONS", value: 7, suffix: "" },
+  { label: "FEATUREDPROJECTS", value: 9, suffix: "+" },
+  { label: "DEGREE COMPLETED", value: 1, suffix: "" },
+  // { label: "GIT COMMITS", value: 1200, suffix: "+" },
+  // { label: "HACKATHONS", value: 7, suffix: "" },
 ];
 
 export const marqueeItems = [
   "OPEN TO WORK",
-  "FULL-STACK",
-  "AI ENGINEERING",
-  "LINUX",
-  "OPEN SOURCE",
-  "TYPESCRIPT",
+  "SOFTWARE ENGINEERING",
+  "BACKEND DEVELOPMENT",
+  "FULL-STACK DEVELOPMENT",
+  "JAVA",
   "PYTHON",
-  "HACKATHONS",
+  "JAVASCRIPT",
+  "C++",
+  "ARTIFICIAL INTELLIGENCE",
+  "MACHINE LEARNING",
+  "BUILDING PROJECTS",
 ];

@@ -61,7 +61,7 @@ function buildPages(): TermPage[] {
     { kind: "text", text: "", variant: "out" },
     { kind: "text", text: `home     ${p.location}`, variant: "dim" },
     { kind: "text", text: `mail     ${p.email}`, variant: "dim" },
-    { kind: "text", text: `github   github.com/${p.handle}`, variant: "dim" },
+    { kind: "text", text: `github   github.com/Zenon-42`, variant: "dim" },
     { kind: "text", text: "", variant: "out" },
     { kind: "text", text: "6 pages found. use ← → or the tabs below.", variant: "ok" },
     { kind: "text", text: "psst… there's a ⚡ button in the status bar. trust it.", variant: "warn" },

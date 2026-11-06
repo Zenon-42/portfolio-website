@@ -1,11 +1,3 @@
-/**
- * ─────────────────────────────────────────────────────────────
- *  PORTFOLIO DATA — edit this single file to make it yours.
- *  Everything shown in terminal mode AND cinematic mode
- *  is generated from the object below.
- * ─────────────────────────────────────────────────────────────
- */
-
 export const persona = {
   name: "Surojit Barik",
   handle: "zenon",
@@ -16,7 +8,6 @@ export const persona = {
   email: "surojitbarik097@gmail.com",
   github: "https://github.com/Zenon-42",
   linkedin: "https://linkedin.com/in/surojitbarik",
-  resumeNote: "# placeholder identity — swap every field in src/data/portfolio.ts",
 };
 
 export const about = {
@@ -30,7 +21,7 @@ export const about = {
     ["languages", "Java, Python, JavaScript, C++"],
     ["focus", "Backend & Full-Stack Development"],
     ["interests", "AI/ML, Software Engineering"],
-    ["os", "Windows", "Linux"],
+    ["os", "Windows, Linux"],
     ["status", "Exploring opportunities"],
   ] as [string, string][],
 };
@@ -42,7 +33,7 @@ export const skills: SkillGroup[] = [
   { dir: "frontend/", items: ["React", "Next.js", "Tailwind CSS", "HTML", "CSS"] },
   { dir: "backend/", items: ["Node.js", "Express", "REST APIs", "FastAPI", "SQLite", "PostgreSQL", "MongoDB", "Redis"] },
   { dir: "ai-ml/", items: ["PyTorch", "scikit-learn", "Hugging Face", "OpenAI API"] },
-  { dir: "ops/", items: ["Linux", "Docker", "Git", "CI/CD", "Nginx", "Vercel"] },
+  { dir: "ops/", items: ["Linux", "Docker", "Git", "CI/CD", "Vercel"] },
   { dir: "tools/",items: ["Git", "GitHub", "Postman", "VS Code", "Linux"]},
   { dir: "areas-of-interest/",items: ["Backend Development","Full-Stack Development","Artificial Intelligence","Machine Learning","Natural Language Processing"]},
   { dir: "ai-models/",items: ["Claude","ChatGPT","DeepSeek","Gemini","z.ai"]},

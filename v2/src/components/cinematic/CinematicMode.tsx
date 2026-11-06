@@ -370,7 +370,7 @@ export default function CinematicMode({ onExit }: Props) {
       <footer className="border-t border-white/[0.06] px-4 py-8 pb-[max(2rem,env(safe-area-inset-bottom))]">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 sm:flex-row">
           <p className="text-[10px] tracking-[0.25em] text-[#5b8a67]">
-            © 2026 {p.name.toUpperCase()} — BORN IN A TERMINAL, UPGRADED FOR THE BIG SCREEN
+            © 2026 {p.name.toUpperCase()} — ENGINEERING IDEAS INTO REALITY
           </p>
           <button
             onClick={onExit}
